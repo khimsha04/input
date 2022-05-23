@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zukss</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <div class="first-block">
+         <form action=""></form>
+        <h2>შეავსე სარეგისტრაციო ფორმა</h2>
+        
+        <div class="input">
+            <label for="name">სახელი</label>
+            <input type="text" id="name" required>
+        </div>
+        <div class="input">
+            <label for="surname">გვარი</label>
+            <input type="text" id="surname" required>
+        </div>
+        <div class="input">
+            <label for="age">ასაკი</label>
+            <input type="number" id="age" required>
+        </div>
+        <div>
+            <label for="city">საცხოვრებელი ადგილი</label>
+            <select name="" id="city">
+                <option value="gori">გორი</option>
+                <option value="tbilisi">თბილისი</option>
+                <option value="qutaisi">ქუთაისი</option>
+                <option value="rustavi">რუსთავი</option>
+            </select>
+            <div class="radio-tip" >
+                <h2>ხარ თუ არა დაოჯახებული</h2>
+                <div> 
+                    <input type="radio" id="ki" name="family">
+                <label for="ki">კი</label>
+                </div>
+                <div>
+                    <input type="radio" id="ara" name="family">
+                    <label for="ara">არა</label>
+                </div>
+                <div>
+                    <label for="photo">ატვირთე ფოტო 3X4-ზე</label>
+                    <input type="file" id="photo" required>
+                </div>
+                <div class="input">
+                    <label for="text-message">გაქვს თუ არა სამუშაო გამოცდილე?თუ გაქვს აღწერე.</label>
+                    <textarea name="" id="text-message cols="30" rows="10"></textarea>
+                    
+                </div>
+                <div class="input">
+                    <label for="telephone">შეიყვანე ტელეფონის ნომერი</label>
+                    <input type="number" id="telephone">
+                </div>
+                <div class="input" >
+                    <label for="login">აირჩიე მომხმარებლის სახელი</label>
+                    <input type="text" id="login">
+                </div>
+                <div class="input">
+                    <label for="password">აირჩიე მომხმარებლის პაროლი</label>
+                    <input type="password"  id="password">
+                </div>
+                <div>
+                    <button> რეგისტრაცია </button>
+                </div>
+            </div>
+        </div>
+
+     </div>
+    
+</body>
+</html>
